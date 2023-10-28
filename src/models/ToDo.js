@@ -5,7 +5,6 @@ const ToDo = sequelize.define('toDo', {
   // Definimos las columnas aquí
   title: {
     type: DataTypes.STRING,
-    allowNull: false
   },
   description: {
     type: DataTypes.TEXT,
